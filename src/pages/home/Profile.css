@@ -1,0 +1,30 @@
+.home_body {
+  height: 100vh;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.home .card_home {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90vw;
+  margin: 1rem 0;
+  z-index: 1;
+  margin: 1rem;
+}
+.home .card_home .modal .heading {
+  text-align: center;
+}
+.home .card_home .modal-header {
+  justify-content: center;
+  align-items: center;
+}
+.home .card_home .modal-body {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* top right bottom left  */

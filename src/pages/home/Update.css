@@ -1,0 +1,15 @@
+.card_profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.profile_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.profile .form{
+  margin-top: 2rem;
+}

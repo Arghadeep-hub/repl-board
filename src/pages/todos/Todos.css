@@ -1,0 +1,17 @@
+.todo_body .item-enter{
+    opacity: 0;
+    transform: translateX(-30%);
+}
+.todo_body .item-enter-active{
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 140ms linear;
+}
+.todo_body .item-exit{
+    opacity: 1;
+}
+.todo_body .item-exit-active{
+    opacity: 0;
+    transform: translateY(10%) scale(0.2);
+    transition: all 100ms linear;
+}

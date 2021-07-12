@@ -1,0 +1,28 @@
+.report_body {
+  height: 100vh;
+}
+.reports {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.reports .card_reports {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+  margin: 1rem;
+  z-index: 1;
+}
+.reports .card_reports .modal .heading {
+  text-align: center;
+}
+.reports .card_reports .modal-header {
+  justify-content: center;
+  align-items: center;
+}
+.reports .card_reports .modal-body {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

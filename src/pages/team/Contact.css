@@ -1,0 +1,34 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+.contact .modal {
+  max-height: 80vh;
+  width: 95vw;
+  z-index: 1;
+}
+.contact .modal-body{
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  white-space: nowrap;
+}
+.contact .item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0.1rem 0;
+}
+.contact .avatar_profile{
+  flex: 0.1;
+}
+.contact .content{
+  flex:0.8;
+  color: #3f51b5;;
+}
+.contact .icon_button{
+  flex: 0.1;
+}
